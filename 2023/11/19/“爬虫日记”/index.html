@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>“爬虫日记” | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="步骤 1：安装必要的库 首先，确保你已经安装了requests和BeautifulSoup库。如果没有安装，你可以使用以下命令来安装它们：pip install requests beautifulsoup4 步骤 2：编写Python脚本 接下来，编写一个Python脚本，其中包含了爬虫的代码。以下是一个示例脚本，用于爬取一个网站上的文段并将内容存储到你的电脑指定位置：import reques">
+<meta property="og:type" content="article">
+<meta property="og:title" content="“爬虫日记”">
+<meta property="og:url" content="http://example.com/2023/11/19/%E2%80%9C%E7%88%AC%E8%99%AB%E6%97%A5%E8%AE%B0%E2%80%9D/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="步骤 1：安装必要的库 首先，确保你已经安装了requests和BeautifulSoup库。如果没有安装，你可以使用以下命令来安装它们：pip install requests beautifulsoup4 步骤 2：编写Python脚本 接下来，编写一个Python脚本，其中包含了爬虫的代码。以下是一个示例脚本，用于爬取一个网站上的文段并将内容存储到你的电脑指定位置：import reques">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2023-11-19T12:05:50.000Z">
+<meta property="article:modified_time" content="2023-11-19T12:08:12.657Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"><span class="fa fa-bars"></span></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+        
+          <a class="nav-icon" href="/atom.xml" title="RSS Feed"><span class="fa fa-rss"></span></a>
+        
+        <a class="nav-icon nav-search-btn" title="Search"><span class="fa fa-search"></span></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-“爬虫日记”" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2023/11/19/%E2%80%9C%E7%88%AC%E8%99%AB%E6%97%A5%E8%AE%B0%E2%80%9D/" class="article-date">
+  <time class="dt-published" datetime="2023-11-19T12:05:50.000Z" itemprop="datePublished">2023-11-19</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      “爬虫日记”
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>步骤 1：安装必要的库</p>
+<p>首先，确保你已经安装了requests和BeautifulSoup库。如果没有安装，你可以使用以下命令来安装它们：<br>pip install requests beautifulsoup4</p>
+<p>步骤 2：编写Python脚本</p>
+<p>接下来，编写一个Python脚本，其中包含了爬虫的代码。以下是一个示例脚本，用于爬取一个网站上的文段并将内容存储到你的电脑指定位置：<br>import requests<br>from bs4 import BeautifulSoup</p>
+<h1 id="1-指定目标网站的URL"><a href="#1-指定目标网站的URL" class="headerlink" title="1. 指定目标网站的URL"></a>1. 指定目标网站的URL</h1><p>url &#x3D; ‘<a href="https://example.com/">https://example.com</a>‘  # 替换成你要爬取的网站的URL</p>
+<h1 id="2-发送HTTP请求并获取页面内容"><a href="#2-发送HTTP请求并获取页面内容" class="headerlink" title="2. 发送HTTP请求并获取页面内容"></a>2. 发送HTTP请求并获取页面内容</h1><p>response &#x3D; requests.get(url)</p>
+<h1 id="3-检查是否成功获取了页面内容"><a href="#3-检查是否成功获取了页面内容" class="headerlink" title="3. 检查是否成功获取了页面内容"></a>3. 检查是否成功获取了页面内容</h1><p>if response.status_code &#x3D;&#x3D; 200:<br>    html &#x3D; response.text<br>else:<br>    print(‘无法获取页面内容’)<br>    exit()</p>
+<h1 id="4-解析HTML页面"><a href="#4-解析HTML页面" class="headerlink" title="4. 解析HTML页面"></a>4. 解析HTML页面</h1><p>soup &#x3D; BeautifulSoup(html, ‘html.parser’)</p>
+<h1 id="5-找到需要爬取的文段标签，例如标签"><a href="#5-找到需要爬取的文段标签，例如标签" class="headerlink" title="5. 找到需要爬取的文段标签，例如标签"></a>5. 找到需要爬取的文段标签，例如<p>标签</h1><p>paragraphs &#x3D; soup.find_all(‘p’)  # 替换成你要爬取的标签</p>
+<h1 id="6-打印文段文本并将其保存到文件"><a href="#6-打印文段文本并将其保存到文件" class="headerlink" title="6. 打印文段文本并将其保存到文件"></a>6. 打印文段文本并将其保存到文件</h1><p>with open(‘text_data.txt’, ‘w’, encoding&#x3D;’utf-8’) as file:<br>    for paragraph in paragraphs:<br>        text &#x3D; paragraph.text.strip()  # 获取文段文本并去除首尾空格<br>        if text:<br>            print(text)  # 打印文段文本<br>            file.write(text + ‘\n’)  # 将文段文本写入文件</p>
+<p>print(‘爬取完成！文段已保存到 text_data.txt 文件中。’)</p>
+<p>运行！</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2023/11/19/%E2%80%9C%E7%88%AC%E8%99%AB%E6%97%A5%E8%AE%B0%E2%80%9D/" data-id="clp5fpuwb0001ksu63pe17rcf" data-title="“爬虫日记”" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2023/10/21/%E2%80%9C%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90%E2%80%9D-1/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">“古月方源”</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/11/">November 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/10/">October 2023</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2023/11/19/%E2%80%9C%E7%88%AC%E8%99%AB%E6%97%A5%E8%AE%B0%E2%80%9D/">“爬虫日记”</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/21/%E2%80%9C%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90%E2%80%9D-1/">“古月方源”</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/12/%E2%80%9C%E5%8F%A4%E6%9C%88%E6%96%B9%E6%BA%90%E2%80%9D/">“古月方源”</a>
+          </li>
+        
+          <li>
+            <a href="/2023/10/12/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2023 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.6.4.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
